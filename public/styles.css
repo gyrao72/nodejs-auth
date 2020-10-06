@@ -143,15 +143,16 @@ footer{
 
 @media screen and (max-width: 485px){
     h1{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     nav li{
+      font-size: 1rem;
       margin-left: 10px;
     }
     nav li a{
-      font-size: 0.5em;
+      font-size: 0.6rem;
       display: block;
-      padding: 10px 8px;
+      padding: 10px 0 10px 5px;
     }
     header{
       display: inline-block;
@@ -180,6 +181,10 @@ footer{
     }
     .recipes{
       grid-template-columns: 1fr ;
+     }
+
+     #userEmail{
+       display: none;
      }
       
 }
